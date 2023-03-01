@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">almagemea</string>
+    <string name="botao1_label">CLIQUE PARA DESCOBRIR</string>
+    <string name="botao2_label">TENTAR DE NOVO</string>
+    <string name="capricorn">Capricórnio</string>
+    <string name="aquarius">Aquário</string>
+    <string name="peixes">Peixes</string>
+</resources>

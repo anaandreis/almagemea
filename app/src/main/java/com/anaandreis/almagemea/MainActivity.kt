@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
 
         val firstButton: Button = findViewById(R.id.button_almagemea)
         firstButton.setOnClickListener { getDate() }
+        val resetButton: Button = findViewById(R.id.button_Reset)
+        resetButton.setOnClickListener { getDate() }
 
     }
 
@@ -36,9 +38,12 @@ class MainActivity : AppCompatActivity() {
         val monthTextView = findViewById<TextView>(R.id.textView_month)
         val slash = findViewById<TextView>(R.id.slash)
         val dia = findViewById<TextView>(R.id.textView_date)
+        val resetButton: Button = findViewById(R.id.button_Reset)
+
         dayTextView.text = day.toString()
         monthTextView.text = month.toString()
 
+        resetButton.visibility = View.VISIBLE
         dia.visibility=View.VISIBLE
         slash.visibility=View.VISIBLE
         dayTextView.visibility = View.VISIBLE
